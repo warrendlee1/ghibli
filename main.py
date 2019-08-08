@@ -15,6 +15,15 @@ class MainPageHandler(webapp2.RequestHandler):
         template = jinja_env.get_template('templates/main.html')
         self.response.write(template.render())
 
+class SearchHandler(webapp2.RequestHandler(:
+    def post(self):
+        base_url = 
+
+
+
+
+        template = jinja
+
 # class RecipeDisplayHandler(webapp2.RequestHandler):
 #     def post(self):
 #         base_url = 'http://www.recipepuppy.com/api/?'
