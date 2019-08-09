@@ -7,6 +7,9 @@
   <title>Document</title>
 </head>
 <body>
-  The search results will go here
+  {% for resutl in reponse %}
+    <div class = "result">{{ result }}</div>
+  {%endfor%}
+  {{ response }}
 </body>
 </html>
